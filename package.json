@@ -1,0 +1,16 @@
+{
+  "name": "skoleni",
+  "version": "1.0.0",
+  "description": "Test Automation Workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "ci-test": "cypress run --spec 'cypress/e2e/api.cy.js' --reporter junit"
+  },
+  "author": "Tomas Drlicek",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
